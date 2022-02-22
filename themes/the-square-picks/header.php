@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div><h1 class="col-6-sm bg-info">Hello Shmeff</h1></div>
+<div><h1 class="d-flex justify-content-center bg-info">Hello Shmeffrey!!!</h1></div>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'the-square-picks' ); ?></a>
 

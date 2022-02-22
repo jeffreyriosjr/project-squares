@@ -1,0 +1,140 @@
+/* Plugin Name: Football Grid Squares */
+
+.fgs-game-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    float: left;
+}
+.fgs-generate {
+    text-align: right;
+}
+.fgs-team-one {
+    font-size: 30px;
+    text-align: left;
+    width: 100%;
+    margin-left: 105px;
+}
+.fgs-team-two {
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    line-height: 45px;
+    float: left;
+    left: -30px;
+    top: 155px;
+    height: 720px;
+    width: 720px;
+    text-align: right;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    z-index: -999;
+}
+.fgs-squares-container {
+    width: 100%;
+}
+.fgs-blank {
+    border: none!important;
+}
+.fgs-label-col,
+.square_col {
+    float: left;
+}
+.fgs-col-inside {
+    text-align: center;
+}
+.fgs-btn {
+    font-size: 22px;
+    line-height: 1.4em;
+    height: 45px;
+    width: 85%;
+    margin: 5px;
+    text-align: center;
+}
+.fgs-btn-picked {
+    font-size: 12px;
+    line-height: 1.4em;
+    height: 45px;
+    width: 85%;
+    margin: 5px;
+    text-align: center;
+}
+.fgs-name {
+    font-size: 12px;
+}
+.fgs-label-inside {
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin: 5px;
+    height: 45px;
+    width: 90%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    line-height: 1.4em;
+}
+.fgs-label-inside {
+    font-size: 22px;
+}
+.fgs-modal {
+    text-align: left;
+}
+.fgs-frm-btn {
+    display: inline-block;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+.fgs-stats {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.fgs-progress {
+    height: 40px;
+}
+.fgs-progress-bar {
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 720px) {
+    .fgs-team-one,
+    .fgs-team-two {
+        font-size:22px;
+    }
+    .fgs-btn,
+    .fgs-btn-picked {
+        padding: 0!important;
+        font-size: 12px;
+    }
+    .fgs-team-one {
+        margin-left: 40px;
+    }
+    .fgs-team-two {
+        left: -20px;
+        height: 320px;
+        width: 320px;
+    }
+    .fgs-label-inside {
+        font-size: 16px;
+    }
+}
+
+@media print {
+    .fgs-no-print {
+        display:none;
+    }
+    .content {
+        padding: 0 100px;
+    }
+    .fgs-btn {
+        border: 1px solid #000!important;
+        color: #000!important;
+        display: inline-block!important;
+    }
+}
