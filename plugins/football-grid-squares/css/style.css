@@ -1,6 +1,7 @@
 /* Plugin Name: Football Grid Squares */
 
 .fgs-game-wrapper {
+    background-color: dimgrey;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
