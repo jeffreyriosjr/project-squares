@@ -179,7 +179,7 @@ function football_squares_grid($params = array()){
     $squares->price = $price;
     $squares->currency_symbol = $symbol;
 
-    $output = '<div class="fgs-game-wrapper">';
+    $output = '<div class="container"><div class="fgs-game-wrapper"></div>';
     $output .= $squares->build();
     $output .= '</div>';
     $output .= '<div style="clear:both"></div>';
